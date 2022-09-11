@@ -1,0 +1,15 @@
+.hole-Holder {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(68, 172, 117, 255);
+
+}
+
+.middle-section {
+    height: calc(100vh - 67px);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}

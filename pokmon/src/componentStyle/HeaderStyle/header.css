@@ -1,0 +1,38 @@
+.nav-holder {
+    width: 100vw;
+    height: 3rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search-section {
+    background-color: rgba(255, 255, 255, 0.641);
+    border-radius: 0.2rem;
+    border: 0;
+    height: 1.2rem;
+    filter: blur(0.6px);
+}
+
+.search-section::placeholder {
+    color: white;
+    padding-left: 0.8rem;
+}
+
+.search-section:focus {
+    filter: blur(0);
+}
+
+.filter-section {
+    color: rgba(217, 239, 227, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.down-arrow {
+    width: 1rem;
+    height: 1rem;
+    padding-left: 0.5rem;
+}

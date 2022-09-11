@@ -1,0 +1,8 @@
+.champion-number {
+    font-size: 9rem;
+    position: fixed;
+    left: calc(100vw - 19rem);
+    /* top: ; */
+    color: rgba(255, 255, 255, 0.279);
+
+}
